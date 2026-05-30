@@ -1,0 +1,75 @@
+/* Custom Cream Brown Gradient Theme */
+body {
+    background: linear-gradient(135deg, #fdfbf7 0%, #e6ccb2 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a3728;
+}
+
+.navbar-custom {
+    background-color: #7f5539 !important;
+}
+
+.navbar-custom .navbar-brand, 
+.navbar-custom .nav-link {
+    color: #ede0d4 !important;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ddb892 !important;
+}
+
+/* Card and Container Styling */
+.card-task {
+    background-color: #ffffff;
+    border: none;
+    border-left: 6px solid #b08968;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(127, 85, 57, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-task:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(127, 85, 57, 0.15);
+}
+
+/* 24-Hour Urgent Condition Styling */
+.task-urgent {
+    border-left: 6px solid #de2a42 !important;
+    background-color: #fff3f4 !important;
+}
+
+.task-completed {
+    border-left: 6px solid #adc178;
+    opacity: 0.75;
+    background-color: #fcfbf9;
+}
+
+.btn-cream-primary {
+    background-color: #9c6644;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-cream-primary:hover {
+    background-color: #7f5539;
+    color: #ffffff;
+}
+
+.text-cream-dark {
+    color: #6c584c;
+}
+
+/* --- Welcome Section & Animation --- */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
